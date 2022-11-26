@@ -1,0 +1,65 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+
+    box-shadow: 0px 4px 24px rgba(168, 168, 168, 0.25);
+    padding: .8em 0;
+}
+
+.titulo__container {
+    background-color: var(--azul-bebe);
+    color: var(--cor-branca);
+
+    padding: .7em;
+    width: 35%;
+    
+    border-radius: 0 14px 14px 0;
+}
+
+.cabecalho__titulo {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.cabecalho__titulo-small {
+    font-size: 12px;
+}
+
+.cabecalho__botao {
+    font-size: 12px;
+    font-family: var(--fonte-secundaria);
+
+    padding: .7em;
+
+    border: none;
+    border-radius: 8px;
+
+    color: var(--cor-branca);
+}
+
+.botao__excluir {
+    background-color: var(--vermelho-excluir);  
+    margin-left: 1em;
+    cursor: pointer;
+}
+
+.botao__salvar {
+    background-color: var(--verde-ativo);
+    cursor: pointer;
+}
+
+.cabecalho__horario {
+    text-align: center;
+    margin-right: 1.5em;
+}
+
+.cabecalho__horario span {
+    font-size: 35px;
+}
+
+#data {
+    font-size: 17px;
+}
+

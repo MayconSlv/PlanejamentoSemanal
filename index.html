@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planejamento Semanal</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&family=Poppins:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Open+Sans:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="titulo__container">
+            <h1 class="cabecalho__titulo">Planejamento Semanal</h1>
+            <small class="cabecalho__titulo-small">Utilize o formulário para adicionar novas tabelas:</small>
+        </div>
+
+        <div>
+            <button class="cabecalho__botao botao__salvar">Salvar localStorage</button>
+            <button class="cabecalho__botao botao__excluir">Excluir localStorage</button>
+        </div>
+
+        <div class="cabecalho__horario">
+            <div>
+                <span class="" id="horas">00:</span>
+                <span id="pontos">:</span>
+                <span id="minutos">00</span>
+            </div>
+            <span id="data">01 de Janeiro de 2023</span>
+        </div>
+    </header>
+
+    <section class="atividade">
+        <input type="text" class="atividade__input" placeholder="Atividade" maxlength="180"/>
+        <select name="dias" id="diaSemana" class="atividade__opcoes">
+            <option value="semValor">Escolha o dia</option>
+            <option value="dias-segunda">Segunda-feira</option>
+            <option value="dias-terca">Terça-feira</option>
+            <option value="dias-quarta">Quarta-feira</option>
+            <option value="dias-quinta">Quinta-feira</option>
+            <option value="dias-sexta">Sexta-feira</option>
+            <option value="dias-sabado">Sábado</option>
+            <option value="dias-domingo">Domingo</option>
+        </select>
+        <p>00m12h</p>
+
+        <div>
+            <button id="botao-adicionar" class="atividade__botao botao__salvar">+ Adicionar Atividade</button>
+            <button class="atividade__botao botao__excluir" id="apagarTodos">- Excluir Todos</button>
+        </div>
+    </section>
+
+    <section class="lista">
+
+
+        <div class="lista__dias">
+
+            <div>
+                <p class="lista__horario">Horario</p>
+            </div>
+
+            <button class="dias dias-segunda">Segunda-feira</button>
+            <button class="dias dias-terca">Terça-feira</button>
+            <button class="dias dias-quarta">Quarta-feira</button>
+            <button class="dias dias-quinta">Quinta-feira</button>
+            <button class="dias dias-sexta">Sexta-feira</button>
+            <button class="dias dias-sabado">Sábado</button>
+            <button class="dias dias-domingo">Domingo</button>
+
+        </div>
+
+        <div class="lista__overflow"></div>
+    </section>
+    </div>
+
+    <script src="./js/data.js"></script>
+    <script src="./js/hora.js"></script>
+    <script src="./js/adicionarTarefa.js"></script>
+</body>
+
+</html>

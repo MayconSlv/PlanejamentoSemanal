@@ -1,0 +1,41 @@
+@import url("cabecalho.css");
+@import url("atividade.css");
+@import url("lista.css");
+
+:root {
+    --azul-bebe: #6688FF;
+    --verde-ativo: #2CBE82;
+    --vermelho-excluir: #DA2B40;
+    --cor-branca: #fff;
+    --fonte-padrao: 'Poppins', sans-serif;
+    --fonte-secundaria: 'Nunito', sans-serif;
+    --segunda: #ffa346cb;
+    --terca: #35e185ce;
+    --quarta: #6687ffd5;
+    --quinta: #b366ffc4;
+    --sexta: #66d1ffc2;
+    --sabado: #ff66d4bb;
+    --domingo: #ff6666c7;
+    --atividade-fundo: linear-gradient(112.83deg, rgba(255, 255, 255, 0.3444) 0%, rgba(255, 255, 255, 0.336) 110.84%);
+    --scrollbar: #DCDFE3;
+    --botao-apagar: #98031E;
+
+}
+
+body {
+    font-family: var(--fonte-padrao);
+    overflow: hidden;
+
+    /* background: url("../assets/bola-LogoCompasso.svg") no-repeat bottom right; */
+}
+
+::-webkit-scrollbar {
+    box-shadow: 0px 4px 24px rgba(66, 63, 63, 0.272);
+    width: 10px;
+    border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--scrollbar);
+    border-radius: 14px;
+}

@@ -1,0 +1,133 @@
+.lista__dias {
+    display: flex;
+    justify-content: space-between;
+
+    width: 95%;
+}
+
+.lista__horario {
+    box-shadow: 0px 4px 24px rgba(168, 168, 168, 0.25);
+    border-radius: 10px;
+
+    height: 75px;
+    width: 75px;
+    margin: 0 1em 0em 1em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.dias {
+    font-weight: 700;
+    font-size: 16px;
+
+    padding: 0 2em;
+    color: var(--cor-branca);
+
+    border: none;
+    border-radius: 9px 9px 0 0;
+
+    height: 30px;
+}
+
+/* valores adicionais */
+
+.dias-segunda {
+    background-color: var(--segunda);
+}
+
+.dias-terca {
+    background-color: var(--terca);
+}
+
+.dias-quarta {
+    background-color: var(--quarta);
+}
+
+.dias-quinta {
+    background-color: var(--quinta);
+}
+
+.dias-sexta {
+    background-color: var(--sexta);
+}
+
+.dias-sabado {
+    background-color: var(--sabado);
+}
+
+.dias-domingo {
+    background-color: var(--domingo);
+}
+
+.horario-atividade {
+    box-shadow: 0px 4px 24px rgba(168, 168, 168, 0.25);
+    border-radius: 10px;
+
+    height: 75px;
+    width: 75px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-right: 1em;
+}
+
+.lista__overflow {
+    height: 60vh;
+    width: 98%;
+    
+    overflow-y: scroll;
+}
+
+.lista__atividades {
+    display: flex;
+    align-items: center;
+    
+    background-color: var(--atividade-fundo);
+
+    margin: 1em;
+}
+
+.lista__borda {
+    width: 10px;
+    height: 75px;
+
+    border-radius: 10px 0 0 10px;
+}
+
+.lista__atividades-texto {
+    width: 30em;
+    height: 75px;
+    margin-right: 2em;
+
+    border-radius: 0px 15px 15px 0px;
+    box-shadow: 0px 2px 5.5px rgba(0, 0, 0, 0.085);
+
+    padding: .5em;
+    box-sizing: border-box;
+
+    position: relative;
+}
+
+.lista-apagar {
+    position: absolute;
+    right: .5em;
+    bottom: .5em;
+
+    background-color: var(--botao-apagar);
+    color: var(--cor-branca);
+
+    border: none;
+    border-radius: 4px;
+
+    font-weight: 700;
+    font-size: 10px;
+    font-family: var(--fonte-secundria);
+    padding: .3em;
+
+    cursor: pointer;
+}
