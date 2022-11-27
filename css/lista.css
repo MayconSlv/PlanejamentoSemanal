@@ -34,32 +34,60 @@
 
 /* valores adicionais */
 
-.dias-segunda {
+.seg {
     background-color: var(--segunda);
 }
 
-.dias-terca {
+.seg-hora {
+    background-color: var(--segundaHr);
+}
+
+.ter {
     background-color: var(--terca);
 }
 
-.dias-quarta {
+.ter-hora {
+    background-color: var(--tercaHr);
+}
+
+.qua {
     background-color: var(--quarta);
 }
 
-.dias-quinta {
+.qua-hora {
+    background-color: var(--quartaHr)
+}
+
+.qui {
     background-color: var(--quinta);
 }
 
-.dias-sexta {
+.qui-hora {
+    background-color: var(--quintaHr);
+}
+
+.sex {
     background-color: var(--sexta);
 }
 
-.dias-sabado {
+.sex-hora {
+    background-color: var(--sextaHr);
+}
+
+.sab {
     background-color: var(--sabado);
 }
 
-.dias-domingo {
+.sab-hora {
+    background-color: var(--sabadoHr);
+}
+
+.dom {
     background-color: var(--domingo);
+}
+
+.dom-hora {
+    background-color: var(--domingoHr);
 }
 
 .horario-atividade {

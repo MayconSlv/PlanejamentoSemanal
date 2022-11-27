@@ -18,7 +18,7 @@ function criaTexto() {
         const atvBarra = document.createElement('div')
         atvBarra.classList.add('lista__atividades')
         atvBarra.innerHTML = `
-        <p class="horario-atividade ${data}">10h30m</p>
+        <p class="horario-atividade ${data+'-hora'}">10h30m</p>
         <span class="lista__borda ${data}"></span>
         <p class="lista__atividades-texto">${atvInput.value}
         <button class="lista-apagar">Apagar</button></p>
@@ -40,4 +40,5 @@ document.addEventListener("click", (e) => {
     if(targetEl.classList.contains("lista-apagar")){
         parentEl.remove()
     }
+
 })
